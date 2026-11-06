@@ -1,0 +1,11 @@
+@keyframes continuousMotion {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  50% {
+    transform: translateX(200px) scale(1.5) rotate(180deg);
+  }
+  100% {
+    transform: translateX(0) scale(1) rotate(360deg);
+  }
+}
